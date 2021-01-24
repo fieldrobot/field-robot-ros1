@@ -1,0 +1,5 @@
+Pixel.msg
+Dateiformat, welches die Position eines Blobs auf einem gegebenen Kamera-Bild zur weiteren Verarbeitung übergibt.
+
+Blobs.msg
+Dateiformat, welches in einem Array die Position aller Blobs als Array von Pixel.msgs zusammenfasst. Zudem werden allgemeine Informationen, wie der Bezugsframe, im Header angegeben.

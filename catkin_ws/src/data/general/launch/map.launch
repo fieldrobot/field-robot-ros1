@@ -1,0 +1,8 @@
+<launch>
+  <!-- Map server -->
+  <!-- <arg name="map_file" default="$(find turtlebot3_navigation)/maps/map.yaml"/>  args="$(arg map_file)" -->
+  <!-- <node pkg="map_server" name="map_server" type="map_server"/> -->
+
+  <!-- use gmapping to create the map -->
+  <node name="slam_gmapping" pkg="gmapping" type="slam_gmapping" args="scan:=robot_laserScan"/>
+</launch>
